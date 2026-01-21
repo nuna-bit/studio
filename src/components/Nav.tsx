@@ -6,8 +6,8 @@ import { SidebarMenu, SidebarMenuItem, SidebarMenuButton } from '@/components/ui
 import { FolderKanban, GraduationCap, Mail, User, Briefcase, QrCode } from 'lucide-react';
 
 const navItems = [
-  { href: '/', label: 'Projects', icon: FolderKanban },
   { href: '/about', label: 'About', icon: User },
+  { href: '/', label: 'Projects', icon: FolderKanban },
   { href: '/experience', label: 'Experience', icon: Briefcase },
   { href: '/education', label: 'Education', icon: GraduationCap },
   { href: '/cv', label: 'CV', icon: QrCode },
