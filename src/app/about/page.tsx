@@ -27,7 +27,7 @@ export default function AboutPage() {
             {!profileImage && <AvatarFallback>AD</AvatarFallback>}
         </div>
         <div>
-          <h2 className="text-4xl lg:text-5xl font-bold font-headline text-primary">Alex Doe</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold font-headline text-primary">Maria Jose</h2>
           <p className="text-xl text-muted-foreground mt-1">Trainee Data Scientist</p>
           <p className="mt-4 max-w-xl text-lg">
             A passionate and detail-oriented data scientist in training, with a strong foundation in statistics, machine learning, and programming. Eager to apply my skills to solve real-world problems and extract actionable insights from data.
