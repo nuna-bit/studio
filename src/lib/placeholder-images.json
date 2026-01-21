@@ -5,6 +5,12 @@
       "description": "A professional headshot of a data scientist.",
       "imageUrl": "https://images.unsplash.com/photo-1652471943570-f3590a4e52ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3Njg5NjQ1MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "professional headshot"
+    },
+    {
+      "id": "cv-qr-code",
+      "description": "A QR code to download a CV.",
+      "imageUrl": "https://images.unsplash.com/photo-1652345408103-7fbe3dd59324?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cXIlMjBjb2RlfGVufDB8fHx8MTc2ODk4MjczNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "qr code"
     }
   ]
 }

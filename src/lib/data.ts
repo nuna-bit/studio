@@ -1,4 +1,4 @@
-import { BrainCircuit, Database, LineChart, Code, Github } from "lucide-react";
+import { BrainCircuit, Database, LineChart, Code, Github, Briefcase } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 export const SKILLS: { name: string; icon: LucideIcon }[] = [
@@ -24,6 +24,21 @@ export const EDUCATION = [
     institution: "State College",
     period: "2018 - 2022",
     description: "Fundamentals of computer science, including algorithms, data structures, and software engineering principles.",
+  },
+];
+
+export const EXPERIENCE = [
+  {
+    role: "Data Science Intern",
+    company: "Data Corp.",
+    period: "Summer 2023",
+    description: "Worked with the data science team on a project to analyze customer feedback. Cleaned and preprocessed large datasets, and built a sentiment analysis model. Presented findings to stakeholders.",
+  },
+  {
+    role: "Junior Data Analyst",
+    company: "Analytics Inc.",
+    period: "2022 - 2023",
+    description: "Responsible for creating and maintaining dashboards to track key business metrics. Performed ad-hoc analysis to support marketing and sales teams.",
   },
 ];
 
