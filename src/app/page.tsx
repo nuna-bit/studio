@@ -1,6 +1,6 @@
-import { PROJECTS } from "@/lib/data";
-import ProjectCard from "@/components/ProjectCard";
 import { FolderKanban } from "lucide-react";
+import ProjectCard from "@/components/ProjectCard";
+import { PROJECTS } from "@/lib/data";
 
 export default function ProjectsPage() {
   return (
