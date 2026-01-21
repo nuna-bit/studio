@@ -3,13 +3,14 @@
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { SidebarMenu, SidebarMenuItem, SidebarMenuButton } from '@/components/ui/sidebar';
-import { FolderKanban, GraduationCap, Mail, User, Briefcase, QrCode } from 'lucide-react';
+import { FolderKanban, GraduationCap, Mail, User, Briefcase, QrCode, Trophy } from 'lucide-react';
 
 const navItems = [
   { href: '/about', label: 'About', icon: User },
   { href: '/', label: 'Projects', icon: FolderKanban },
   { href: '/experience', label: 'Experience', icon: Briefcase },
   { href: '/education', label: 'Education', icon: GraduationCap },
+  { href: '/achievements', label: 'Achievements', icon: Trophy },
   { href: '/cv', label: 'CV', icon: QrCode },
   { href: '/contact', label: 'Contact', icon: Mail },
 ];

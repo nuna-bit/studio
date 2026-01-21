@@ -98,6 +98,23 @@ export const CERTIFICATIONS = [
   },
 ];
 
+export const ACHIEVEMENTS = [
+  {
+    name: "Google Developer Student Club AI Hackathon",
+    issuer: "Google Developer Group - PoliMi",
+    date: "Apr 2024",
+    description: "Participated in a hackathon focused on AI applications for education.",
+    url: "https://www.linkedin.com/posts/activity-7188836709374046208-Mut0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-KJMsBjd3TbbtvTkhWvCBtm93wdLj8ePw",
+  },
+  {
+    name: "Winner: AI applications for inclusion",
+    issuer: "IULM Talent & Creativity Challenge – edition II",
+    date: "Feb 2024",
+    description: "Won the competition for developing an AI application focused on inclusion.",
+    url: "https://www.linkedin.com/in/mj-salas/details/honors/",
+  },
+];
+
 export const PROJECTS = [
     {
         title: "Learn Language Assistant",
