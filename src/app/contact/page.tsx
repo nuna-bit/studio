@@ -27,7 +27,7 @@ export default function ContactPage() {
                                 GitHub
                             </Button>
                         </Link>
-                        <Link href="#" passHref>
+                        <Link href="https://www.linkedin.com/in/mj-salas/" passHref>
                             <Button variant="outline" size="lg" className="w-full">
                                 <Linkedin className="mr-2" />
                                 LinkedIn
