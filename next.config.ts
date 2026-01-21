@@ -1,14 +1,15 @@
 import type {NextConfig} from 'next';
 
+const isProd = process.env.NODE_ENV === 'production';
+// TODO: Replace '<repository-name>' with your GitHub repository name.
+const repoName = '<repository-name>';
+
 const nextConfig: NextConfig = {
-  /* config options here */
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  output: 'export',
+  basePath: isProd ? `/${repoName}` : undefined,
+  assetPrefix: isProd ? `/${repoName}/` : undefined,
   images: {
+    unoptimized: true, // Required for static export.
     remotePatterns: [
       {
         protocol: 'https',
@@ -29,6 +30,12 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
     ],
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 };
 
