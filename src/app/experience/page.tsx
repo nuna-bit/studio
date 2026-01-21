@@ -1,6 +1,6 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { EXPERIENCE } from "@/lib/data";
-import { Briefcase } from "lucide-react";
+import { Briefcase, MapPin } from "lucide-react";
 
 export default function ExperiencePage() {
   return (
@@ -15,6 +15,12 @@ export default function ExperiencePage() {
                   <div>
                     <CardTitle className="font-headline text-xl">{exp.role}</CardTitle>
                     <CardDescription className="text-base mt-1">{exp.company}</CardDescription>
+                    {exp.location && (
+                        <CardDescription className="text-sm text-muted-foreground flex items-center gap-1.5 mt-1">
+                            <MapPin className="h-4 w-4" />
+                            {exp.location}
+                        </CardDescription>
+                    )}
                   </div>
                   <p className="text-sm text-muted-foreground whitespace-nowrap pt-1">{exp.period}</p>
                 </div>
