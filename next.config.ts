@@ -2,7 +2,7 @@ import type {NextConfig} from 'next';
 
 const isProd = process.env.NODE_ENV === 'production';
 // TODO: Replace '<repository-name>' with your GitHub repository name.
-const repoName = '<repository-name>';
+const repoName = 'studio';
 
 const nextConfig: NextConfig = {
   output: 'export',
