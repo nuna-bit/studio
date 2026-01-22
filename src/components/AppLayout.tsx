@@ -9,8 +9,8 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         <SidebarHeader className="p-2">
             <div className="flex items-center gap-2 w-full">
                 <BrainCircuit className="h-8 w-8 text-primary" />
-                <h1 className="text-2xl font-semibold font-headline text-primary group-data-[collapsible=icon]:hidden">
-                  Datafolio
+                  <h1 className="text-xl font-semibold font-headline text-primary group-data-[collapsible=icon]:hidden">
+                  Maria Jose Portfolio
                 </h1>
             </div>
         </SidebarHeader>

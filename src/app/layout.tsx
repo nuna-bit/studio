@@ -5,8 +5,8 @@ import AppLayout from '@/components/AppLayout';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Datafolio',
-  description: 'A portfolio for a trainee data scientist.',
+  title: 'Maria Jose Portfolio',
+  description: 'A portfolio for Maria Jose, a trainee data scientist.',
 };
 
 export default function RootLayout({
