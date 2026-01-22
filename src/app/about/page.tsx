@@ -32,11 +32,11 @@ export default function AboutPage() {
           <h2 className="text-4xl lg:text-5xl font-bold font-headline text-primary">Maria Jose</h2>
           <p className="text-xl text-muted-foreground mt-1">Jr Data Scientist Trainee</p>
           <p className="mt-4 max-w-xl text-lg white-space-pre-line">
-            I started out in Law because I’ve always been fascinated by complex systems and the logic behind rules. But as I moved deeper into my studies, I realized that my real drive came from a place of curiosity, I wanted to solve puzzles and build solutions rather than just interpret existing ones. 
-            Making the jump from Law to Artificial Intelligence was a defining moment for me. It was a challenge to my own self-doubt, and proving that I could not only make the transition but graduate 110/110 cum laude was the ultimate validation of my capacity to grow. 
-            Since then, I’ve been focused on turning theory into high-stakes reality. Whether it was identifying cost-saving insights during my time at ASML  or my current work at Heroes B.V., where I’m building scalable ML and GenAI solutions using Databricks and MLflow, I’ve shown that I can handle the full data lifecycle. 
-            My journey has taught me a simple, powerful lesson: it is never too late to start something new, and persistence is always worth it. 
-            
+            I started out in Law because I’ve always been fascinated by complex systems and the logic behind rules. But as I moved deeper into my studies, I realized that my real drive came from a place of curiosity, I wanted to solve puzzles and build solutions rather than just interpret existing ones. <br></br>
+            Making the jump from Law to Artificial Intelligence was a defining moment for me. It was a challenge to my own self-doubt, and proving that I could not only make the transition but graduate 110/110 cum laude was the ultimate validation of my capacity to grow.  <br></br>
+            Since then, I’ve been focused on turning theory into high-stakes reality. Whether it was identifying cost-saving insights during my time at ASML  or my current work at Heroes B.V., where I’m building scalable ML and GenAI solutions using Databricks and MLflow, I’ve shown that I can handle the full data lifecycle.  <br></br>
+            My journey has taught me a simple, powerful lesson: it is never too late to start something new, and persistence is always worth it.  <br></br>
+             <br></br>
             Here is the work I’ve done so far as I continue on this path.
           </p>
           <div className="mt-6 flex justify-center md:justify-start">
