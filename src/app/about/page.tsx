@@ -6,7 +6,6 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Image from 'next/image';
 import { User, ExternalLink } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
-import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 export default function AboutPage() {
@@ -52,7 +51,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="mt-6 flex justify-center md:justify-start">
-            <Link
+            <a
                 href="src\app\Maria-Jose-CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -60,7 +59,7 @@ export default function AboutPage() {
               >
                 <ExternalLink className="mr-2 h-4 w-4" />
                 View CV
-            </Link>
+            </a>
           </div>
         </div>
       </section>
