@@ -13,22 +13,24 @@ export default function AboutPage() {
 
   return (
     <div className="space-y-12">
-        <h1 className="text-4xl font-bold font-headline mb-8 flex items-center gap-3"><User className="h-10 w-10 text-primary" /> About Me</h1>
-        <section className="flex flex-col md:flex-row items-center gap-8 text-center md:text-left">
-        <div className="relative">
+      <h1 className="text-4xl font-bold font-headline mb-8 flex items-center gap-3"><User className="h-10 w-10 text-primary" /> About Me</h1> 
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-center">
+        <div className="md:col-span-1 flex justify-center">
+          <div className="relative">
             {profileImage && (
               <Image
                 src={profileImage.imageUrl}
                 alt={profileImage.description}
                 data-ai-hint={profileImage.imageHint}
-                width={160}
-                height={160}
+                width={200}
+                height={200}
                 className="rounded-full border-4 border-primary shadow-lg"
               />
             )}
             {!profileImage && <AvatarFallback>AD</AvatarFallback>}
+          </div>
         </div>
-        <div>
+        <div className="md:col-span-2">
           <h2 className="text-4xl lg:text-5xl font-bold font-headline text-primary">Maria Jose</h2>
           <p className="text-xl text-muted-foreground mt-1">Jr Data Scientist Trainee</p>
           <div className="mt-4 text-lg space-y-4">
