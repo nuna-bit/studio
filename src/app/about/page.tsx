@@ -52,7 +52,7 @@ export default function AboutPage() {
           </div>
           <div className="mt-6 flex justify-center md:justify-start">
             <a
-                href="/studio/src/app/Maria-Jose-CV.pdf"
+                href="C:\Users\maria\OneDrive\Documents\GitHub\studio\src\app\Maria-Jose-CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(buttonVariants({ variant: 'default' }))}
