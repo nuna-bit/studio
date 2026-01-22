@@ -51,7 +51,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="mt-6 flex justify-center md:justify-start">
-              <Link href="/studio/Maria-Jose-CV.pdf" passHref target="_blank" download>
+              <Link href="Maria-Jose-CV.pdf" passHref target="_blank" download>
                 <Button>
                     <Download className="mr-2 h-4 w-4" />
                     Download CV
