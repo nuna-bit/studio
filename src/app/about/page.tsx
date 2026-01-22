@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { SKILLS } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Image from 'next/image';
-import { User, Download } from "lucide-react";
+import { User, ExternalLink } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -54,13 +54,12 @@ export default function AboutPage() {
           <div className="mt-6 flex justify-center md:justify-start">
             <Link
                 href="/Maria-Jose-CV.pdf"
-                download="Maria-Jose-CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(buttonVariants({ variant: 'default' }))}
               >
-                <Download className="mr-2 h-4 w-4" />
-                Download CV
+                <ExternalLink className="mr-2 h-4 w-4" />
+                View CV
             </Link>
           </div>
         </div>
