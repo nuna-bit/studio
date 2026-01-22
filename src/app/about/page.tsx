@@ -5,8 +5,9 @@ import { SKILLS } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Image from 'next/image';
 import { User, Download } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
 export default function AboutPage() {
   const profileImage = PlaceHolderImages.find(p => p.id === 'profile-picture');
@@ -35,28 +36,32 @@ export default function AboutPage() {
           <p className="text-xl text-muted-foreground mt-1">Jr Data Scientist Trainee</p>
           <div className="mt-4 text-lg space-y-4">
             <p>
-              I started out in Law because I&apos;ve always been fascinated by complex systems and the logic behind rules. But as I moved deeper into my studies, I realized that my real drive came from a place of curiosity, I wanted to solve puzzles and build solutions rather than just interpret existing ones.
+              I started out in Law because I've always been fascinated by complex systems and the logic behind rules. But as I moved deeper into my studies, I realized that my real drive came from a place of curiosity, I wanted to solve puzzles and build solutions rather than just interpret existing ones.
             </p>
             <p>
               Making the jump from Law to Artificial Intelligence was a defining moment for me. It was a challenge to my own self-doubt, and proving that I could not only make the transition but graduate 110/110 cum laude was the ultimate validation of my capacity to grow.
             </p>
             <p>
-             Since then, I&apos;ve been focused on turning theory into high-stakes reality. Whether it was identifying cost-saving insights during my time at ASML or my current work at Heroes B.V., where I&apos;m building scalable ML and GenAI solutions using Databricks and MLflow, I&apos;ve shown that I can handle the full data lifecycle.
+             Since then, I've been focused on turning theory into high-stakes reality. Whether it was identifying cost-saving insights during my time at ASML or my current work at Heroes B.V., where I'm building scalable ML and GenAI solutions using Databricks and MLflow, I've shown that I can handle the full data lifecycle.
             </p>
             <p>
               My journey has taught me a simple, powerful lesson: it is never too late to start something new. Ambition is only half the battle, the real value comes from the discipline to keep showing up until the unfamiliar becomes second nature.
             </p>
             <p>
-              Here is the work I&apos;ve done so far as I continue on this path.
+              Here is the work I've done so far as I continue on this path.
             </p>
           </div>
           <div className="mt-6 flex justify-center md:justify-start">
-            <a href="Maria-Jose-CV.pdf" download="Maria-Jose-CV.pdf" target="_blank" rel="noopener noreferrer">
-                <Button>
-                    <Download className="mr-2 h-4 w-4" />
-                    Download CV
-                </Button>
-            </a>
+            <Link
+                href="/Maria-Jose-CV.pdf"
+                download="Maria-Jose-CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={cn(buttonVariants({ variant: 'default' }))}
+              >
+                <Download className="mr-2 h-4 w-4" />
+                Download CV
+            </Link>
           </div>
         </div>
       </section>
