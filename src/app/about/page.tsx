@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { User, ExternalLink } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import Link from 'next/link';
 
 export default function AboutPage() {
   const profileImage = PlaceHolderImages.find(p => p.id === 'profile-picture');
@@ -51,15 +52,15 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="mt-6 flex justify-center md:justify-start">
-            <a
-                href="C:\Users\maria\OneDrive\Documents\GitHub\studio\src\app\Maria-Jose-CV.pdf"
+            <Link
+                href="/cv"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(buttonVariants({ variant: 'default' }))}
               >
                 <ExternalLink className="mr-2 h-4 w-4" />
                 View CV
-            </a>
+            </link>
           </div>
         </div>
       </section>
