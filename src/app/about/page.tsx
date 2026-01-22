@@ -59,8 +59,8 @@ export default function AboutPage() {
                 className={cn(buttonVariants({ variant: 'default' }))}
               >
                 <ExternalLink className="mr-2 h-4 w-4" />
-                View CV
-            </link>
+                <span>View CV</span>
+            </Link>
           </div>
         </div>
       </section>
