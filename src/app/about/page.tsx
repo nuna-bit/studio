@@ -4,10 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { SKILLS } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Image from 'next/image';
-import { User, ExternalLink } from "lucide-react";
-import { buttonVariants } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
-import Link from 'next/link';
+import { User } from "lucide-react";
 
 export default function AboutPage() {
   const profileImage = PlaceHolderImages.find(p => p.id === 'profile-picture');
@@ -50,17 +47,6 @@ export default function AboutPage() {
             <p>
               Here is the work I've done so far as I continue on this path.
             </p>
-          </div>
-          <div className="mt-6 flex justify-center md:justify-start">
-            <Link
-                href="/cv"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={cn(buttonVariants({ variant: 'default' }))}
-              >
-                <ExternalLink className="mr-2 h-4 w-4" />
-                <span>View CV</span>
-            </Link>
           </div>
         </div>
       </section>
