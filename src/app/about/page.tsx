@@ -44,14 +44,14 @@ export default function AboutPage() {
              Since then, I&apos;ve been focused on turning theory into high-stakes reality. Whether it was identifying cost-saving insights during my time at ASML or my current work at Heroes B.V., where I&apos;m building scalable ML and GenAI solutions using Databricks and MLflow, I&apos;ve shown that I can handle the full data lifecycle.
             </p>
             <p>
-              My journey has taught me a simple, powerful lesson: it is never too late to start something new, and persistence is always worth it.
+              My journey has taught me a simple, powerful lesson: it is never too late to start something new. Ambition is only half the battle, the real value comes from the discipline to keep showing up until the unfamiliar becomes second nature.
             </p>
             <p>
               Here is the work I&apos;ve done so far as I continue on this path.
             </p>
           </div>
           <div className="mt-6 flex justify-center md:justify-start">
-            <Link href="#" passHref target="_blank">
+              <Link href="/studio/Maria-Jose-CV.pdf" passHref target="_blank" download>
                 <Button>
                     <Download className="mr-2 h-4 w-4" />
                     Download CV
