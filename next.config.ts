@@ -6,6 +6,7 @@ const repoName = 'studio';
 
 const nextConfig: NextConfig = {
   output: 'export',
+  trailingSlash: true,
   basePath: isProd ? `/${repoName}` : undefined,
   assetPrefix: isProd ? `/${repoName}/` : undefined,
   images: {
