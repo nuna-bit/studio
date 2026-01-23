@@ -149,11 +149,22 @@ export const PROJECTS = [
         ]
     },
     {
-        title: "Sentiment Analysis with Python",
-        description: "Created a repository to gain hands-on experience with Git and GitHub, including a sentiment analysis Python script to demonstrate foundational natural language processing techniques.",
-        tags: ["Python", "Git", "GitHub"],
+        title: "Sentiment Analysis with Python & Hugging Face",
+        description: "NLP sentiment analysis repository featuring a live deployment on Hugging Face. Focused on TextBlob implementation and CI/CD basics with Git.",
+        tags: ["Python", "Git", "GitHub", "Hugging Face", "TextBlob", "NLP"],
         links: [
-            { type: "github" as const, url: "https://github.com/nuna-bit/Sentiment-Analysis-with-Python" }
+            { type: "github" as const, url: "https://github.com/nuna-bit/sentiment-analysis-with-python-Hugging-Face" }
+            { type: "huggingface" as const, url: "https://huggingface.co/spaces/nuna-bit/textblob-sentiment-demo" }
+        ]
+    },
+    {
+        title: "Brazilian E-Commerce Analytics Dashboard",
+        description: "Interactive Streamlit dashboard analyzing a Kaggle e-commerce dataset.",
+        tags: ["Streamlit", "Kaggle", "Python", "Pandas"],
+        links: [
+            { type: "github" as const, url: "https://github.com/nuna-bit/ecommerce-eda-dashboard" },
+            { type: "kaggle" as const, url: "https://www.kaggle.com/code/mariajosesm/eda-brazilian-ecommerce" }
+            { type: "Demo" as const, url: "https://ecommerce-eda-dashboard-mwsjjkaoxcyltylmtzq8gr.streamlit.app/" }
         ]
     },
     {
