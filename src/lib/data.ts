@@ -164,7 +164,7 @@ export const PROJECTS = [
         links: [
             { type: "github" as const, url: "https://github.com/nuna-bit/ecommerce-eda-dashboard" },
             { type: "kaggle" as const, url: "https://www.kaggle.com/code/mariajosesm/eda-brazilian-ecommerce" }
-            { type: "Demo" as const, url: "https://ecommerce-eda-dashboard-mwsjjkaoxcyltylmtzq8gr.streamlit.app/" }
+            { type: "demo" as const, url: "https://ecommerce-eda-dashboard-mwsjjkaoxcyltylmtzq8gr.streamlit.app/" }
         ]
     },
     {

@@ -41,7 +41,7 @@ export default function ProjectCard({ project }: { project: Project }) {
             </CardContent>
             <CardFooter className="flex-col items-start gap-4 pt-4">
                 <div className="flex items-center gap-2">
-                        {project.links.map((link) => {
+                    {project.links.map((link) => {
                         const details = linkDetails[link.type] || linkDetails.demo;
                         return (
                             <Link href={link.url} key={link.type} target="_blank" rel="noopener noreferrer">
