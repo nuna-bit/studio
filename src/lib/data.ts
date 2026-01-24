@@ -153,7 +153,7 @@ export const PROJECTS = [
         description: "NLP sentiment analysis repository featuring a live deployment on Hugging Face. Focused on TextBlob implementation and CI/CD basics with Git.",
         tags: ["Python", "Git", "GitHub", "Hugging Face", "TextBlob", "NLP"],
         links: [
-            { type: "github" as const, url: "https://github.com/nuna-bit/sentiment-analysis-with-python-Hugging-Face" }
+            { type: "github" as const, url: "https://github.com/nuna-bit/sentiment-analysis-with-python-Hugging-Face" },
             { type: "huggingface" as const, url: "https://huggingface.co/spaces/nuna-bit/textblob-sentiment-demo" }
         ]
     },
@@ -163,7 +163,7 @@ export const PROJECTS = [
         tags: ["Streamlit", "Kaggle", "Python", "Pandas"],
         links: [
             { type: "github" as const, url: "https://github.com/nuna-bit/ecommerce-eda-dashboard" },
-            { type: "kaggle" as const, url: "https://www.kaggle.com/code/mariajosesm/eda-brazilian-ecommerce" }
+            { type: "kaggle" as const, url: "https://www.kaggle.com/code/mariajosesm/eda-brazilian-ecommerce" },
             { type: "demo" as const, url: "https://ecommerce-eda-dashboard-mwsjjkaoxcyltylmtzq8gr.streamlit.app/" }
         ]
     },
@@ -172,7 +172,7 @@ export const PROJECTS = [
         description: "Created an interactive website for a tech-focused AI library with a virtual assistant, seamless data management, and efficient deployment, showcasing teamwork and technical expertise.",
         tags: ["HTML5", "CSS3", "PHP", "JavaScript", "MySQL", "Docker", "IBM Watsonx"],
         links: [
-            { type: "github" as const, url: "https://github.com/MariaPizzulli/FuturisticAI_Library" },
+            { type: "github" as const, url: "https://github.com/MariaPizzulli/FuturisticAI_Library" }
         ]
     }
 ];
