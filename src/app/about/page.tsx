@@ -30,7 +30,7 @@ export default function AboutPage() {
         </div>
         <div className="md:col-span-2">
           <h2 className="text-4xl lg:text-5xl font-bold font-headline text-primary">Maria Jose</h2>
-          <p className="text-xl text-muted-foreground mt-1">Jr Data Scientist Trainee</p>
+          <p className="text-xl text-muted-foreground mt-1">Data Scientist</p>
           <div className="mt-4 text-lg space-y-4">
             <p>
               I started out in Law because I've always been fascinated by complex systems and the logic behind rules. But as I moved deeper into my studies, I realized that my real drive came from a place of curiosity, I wanted to solve puzzles and build solutions rather than just interpret existing ones.
