@@ -8,7 +8,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 
 export const metadata: Metadata = {
   title: 'Maria Jose Portfolio',
-  description: 'A portfolio for Maria Jose, a trainee data scientist.',
+  description: 'A portfolio for Maria Jose, a data scientist.',
 };
 
 export default function RootLayout({
